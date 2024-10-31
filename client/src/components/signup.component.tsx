@@ -76,7 +76,6 @@ export default function SignupFormComponent() {
             setPhone('');
             setName('');
 
-            window.location.href = 'http://localhost:5173/home';
         } catch (error: any) {
             if (error.response.data == "this user is exist") {
                 Swal.fire({
