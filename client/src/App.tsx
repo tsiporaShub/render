@@ -1,5 +1,5 @@
 import { BrowserRouter as Router } from 'react-router-dom';
-import TopNavComponent from './components/topNav.component';
+import TopNavComponent from './components/topNav.component.tsx';
 import { Provider } from 'react-redux';
 import { store } from './redux/store.ts';
 import Footer from './components/footer.component.tsx';
